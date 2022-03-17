@@ -1,3 +1,229 @@
-/* If you are using sass or scss to compiles your styles */
-/* Make sure to edit the webpack.mix.js file */
-/* See the README for more information */
+body { 
+    font-family: sans-serif;    
+    margin: 0;
+}
+
+.App-header {
+    height: 50px;
+    color: #ffffff;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+.social-button {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+.company-name {
+    margin-left: 20px;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav li {
+    margin: 25px;
+    font-size: 20px;
+}
+.App-body {
+    margin-top: -50px;
+    overflow-x: hidden;
+}
+.section1-container {
+    background: #14287f;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section1-container .wrapper {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 125px;
+}
+.section1-container img {
+    height: 90%;
+}
+.section1-content-container {
+    width: 50%;
+    margin-left: 100px;
+}
+.section1-content-container h3 {
+    color: #FFC501;
+    font-size: 20px;
+}
+
+.section1-content-container h1 {
+    font-size: 70px;
+}
+.section1-content-container p {
+    font-size: 16px;
+    color: #B5B7B7;
+    width: 70%;
+    line-height: 30px;
+}
+.section1-content-buttons {
+    margin-top: 80px;
+}
+.section1-content-buttons button {
+    padding: 15px 45px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.start-button {
+    background-color: #279E64;
+    color: #ffffff;
+}
+.guide-button {
+    background-color: #FFC501;
+    margin-left: 20px;
+}
+
+.section2-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFF2F7;
+    color: #949494;
+}
+.section2-container .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    padding-top: 125px;
+    padding-left: 200px;
+}
+.section2-container img {
+    height: 80%;
+}
+.section2-content-container {
+    width: 70%;
+    margin-left: 150px;
+}
+.section2-content-container h3 {
+    color: #279E64;
+    font-size: 20px;
+}
+.section2-content-container h1 {
+    font-size: 60px;
+    color: #14287f;
+}
+.section2-content-container p {
+    width: 70%;
+    line-height: 35px;
+}
+.reasons {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.circle1 {
+    background-color: #279e656c;
+}
+.circle2{
+    background-color: #ffc40154;
+}
+.reasons h3 {
+    color: #14287f;
+}
+
+.section3-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    color: #949494;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section3-container h1 {
+    padding-top: 125px;
+    font-size: 60px;
+    color: #14287F;
+    margin-bottom: 20px;
+}
+.section3-container h3 {
+    font-size: 25px;
+    color: #279E64;
+}
+.features {
+    margin-top: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.feature {
+    width: 25%;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    height: 35vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feature .img {
+    height: 70px;
+    width: 70px;
+    background-color: #279E64;
+    border-radius: 5px;
+}
+.feature h3 {
+    color: #14287F;
+    font-size: 25px;
+    font-weight: bold;
+}
+.feature p {
+    line-height: 35px;
+}
+.feature:nth-of-type(2) {
+    background-color: #279E64;
+    color: #EFF2F7;
+}
+.feature:nth-of-type(2) .img {
+    background-color: #EFF2F7;
+}
+.feature:nth-of-type(2) h3 {
+    color: #EFF2F7;
+} 
+
